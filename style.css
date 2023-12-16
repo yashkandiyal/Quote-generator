@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+    
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+background-clip: content-box;
+
+
+}
+.quote_container{
+    
+    max-width: 900px;
+    padding: 20px 30px;
+    width: auto;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.85);
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.2);
+    
+    
+}
+.quote_text{
+   font-size: 2.75rem;
+  font-weight: 400;
+}
+.fa-quote-left{
+    font-size: 4rem;
+}
+.quote_author{
+    font-style: italic;
+    font-weight:100;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.button_container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+button{
+    color: aliceblue;
+    background-color: #333;
+    padding: 7px 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    outline: none;
+   border-style: none;
+}
+button:hover{
+filter: brightness(110%);
+}
+.twitter_button:hover{
+    color: #38a1f3;
+}
+.fa-twitter{
+    font-size: 1.5rem;
+}
+.long-quote{
+    font-weight: 400;
+    font-size: 2rem;
+}
+@media screen and (max-width:1000px) {
+    .quote_container{
+        margin: auto 15px;
+    }
+    .quote_text{
+        font-size: 2.5rem;
+    }
+    button:hover{
+        filter: brightness(120%);
+        }
+        .twitter_button:hover{
+            color: #38a1f3;
+        }
+}
